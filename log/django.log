@@ -1,0 +1,36 @@
+Watching for file changes with StatReloader
+C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\project_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 8
+C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\project_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\project_1\settings.py changed, reloading.
+INFO 2023-10-15 11:03:11,587 autoreload 14768 13420 Watching for file changes with StatReloader
+INFO 2023-10-15 11:04:06,594 autoreload 14768 13420 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\project_1\settings.py changed, reloading.
+INFO 2023-10-15 11:04:07,959 autoreload 12240 5532 Watching for file changes with StatReloader
+INFO 2023-10-15 11:04:30,769 basehttp 12240 10528 "GET / HTTP/1.1" 200 13
+INFO 2023-10-15 11:04:35,566 basehttp 12240 10528 "GET /about/ HTTP/1.1" 200 8
+INFO 2023-10-15 16:29:51,460 autoreload 12240 5532 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:29:52,158 autoreload 24132 22816 Watching for file changes with StatReloader
+INFO 2023-10-15 16:29:53,797 basehttp 24132 26376 "GET /about/ HTTP/1.1" 200 377
+INFO 2023-10-15 16:30:12,332 autoreload 24132 22816 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:30:12,814 autoreload 25848 21288 Watching for file changes with StatReloader
+INFO 2023-10-15 16:30:57,564 autoreload 25848 21288 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:30:58,044 autoreload 6520 24408 Watching for file changes with StatReloader
+INFO 2023-10-15 16:31:01,021 basehttp 6520 24472 "GET /about/ HTTP/1.1" 200 395
+INFO 2023-10-15 16:31:21,296 autoreload 6520 24408 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:31:21,806 autoreload 11752 25952 Watching for file changes with StatReloader
+INFO 2023-10-15 16:31:23,931 basehttp 11752 23136 "GET /about/ HTTP/1.1" 200 396
+INFO 2023-10-15 16:31:35,783 autoreload 11752 25952 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:31:36,291 autoreload 15960 15156 Watching for file changes with StatReloader
+INFO 2023-10-15 16:31:36,457 basehttp 15960 8596 "GET /about/ HTTP/1.1" 200 375
+INFO 2023-10-15 16:31:48,056 autoreload 15960 15156 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:31:48,594 autoreload 26532 22976 Watching for file changes with StatReloader
+INFO 2023-10-15 16:31:49,537 basehttp 26532 15528 "GET /about/ HTTP/1.1" 200 397
+INFO 2023-10-15 16:33:05,285 autoreload 26532 22976 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:33:05,800 autoreload 23604 13836 Watching for file changes with StatReloader
+INFO 2023-10-15 16:33:06,892 basehttp 23604 15700 "GET /about/ HTTP/1.1" 200 418
+INFO 2023-10-15 16:34:39,008 autoreload 23604 13836 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp\views.py changed, reloading.
+INFO 2023-10-15 16:34:39,519 autoreload 23352 21656 Watching for file changes with StatReloader
+INFO 2023-10-15 16:34:41,065 basehttp 23352 26112 "GET /about/ HTTP/1.1" 200 418
+INFO 2023-10-15 16:34:44,915 basehttp 23352 26112 "GET / HTTP/1.1" 200 127
