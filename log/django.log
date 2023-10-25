@@ -36,3 +36,290 @@ INFO 2023-10-15 16:34:41,065 basehttp 23352 26112 "GET /about/ HTTP/1.1" 200 418
 INFO 2023-10-15 16:34:44,915 basehttp 23352 26112 "GET / HTTP/1.1" 200 127
 INFO 2023-10-16 16:39:45,476 autoreload 25400 26560 Watching for file changes with StatReloader
 INFO 2023-10-16 16:44:07,334 autoreload 20284 24324 Watching for file changes with StatReloader
+INFO 2023-10-23 17:49:57,809 autoreload 25760 28016 Watching for file changes with StatReloader
+INFO 2023-10-23 17:50:08,569 basehttp 25760 12208 "GET / HTTP/1.1" 200 127
+WARNING 2023-10-23 17:50:08,988 log 25760 12208 Not Found: /favicon.ico
+WARNING 2023-10-23 17:50:08,988 basehttp 25760 12208 "GET /favicon.ico HTTP/1.1" 404 2545
+INFO 2023-10-23 17:50:17,745 basehttp 25760 12208 "GET /hw3/hello HTTP/1.1" 301 0
+INFO 2023-10-23 17:50:17,755 basehttp 25760 18056 "GET /hw3/hello/ HTTP/1.1" 200 26
+INFO 2023-10-23 17:50:23,428 basehttp 25760 18056 "GET /hw3/hello2/ HTTP/1.1" 200 23
+INFO 2023-10-25 09:37:23,592 basehttp 25760 30368 "GET /hw3/hello2/ HTTP/1.1" 200 23
+INFO 2023-10-25 09:37:54,519 autoreload 25760 28016 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-25 09:37:56,479 autoreload 27008 15000 Watching for file changes with StatReloader
+INFO 2023-10-25 09:38:32,794 autoreload 27008 15000 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 09:38:34,213 autoreload 7688 29100 Watching for file changes with StatReloader
+INFO 2023-10-25 09:39:10,470 autoreload 7688 29100 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 09:39:11,969 autoreload 29056 2176 Watching for file changes with StatReloader
+INFO 2023-10-25 09:39:35,543 autoreload 29056 2176 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-25 09:39:36,849 autoreload 29060 28764 Watching for file changes with StatReloader
+WARNING 2023-10-25 09:39:51,953 log 29060 28532 Not Found: /hw3/posts/
+WARNING 2023-10-25 09:39:51,953 basehttp 29060 28532 "GET /hw3/posts/ HTTP/1.1" 404 3185
+INFO 2023-10-25 09:39:56,817 basehttp 29060 28532 "GET /hw3/posts/2002 HTTP/1.1" 301 0
+INFO 2023-10-25 09:39:56,821 basehttp 29060 29432 "GET /hw3/posts/2002/ HTTP/1.1" 200 19
+INFO 2023-10-25 09:40:07,697 basehttp 29060 29432 "GET /hw3/posts/2002/11 HTTP/1.1" 301 0
+INFO 2023-10-25 09:40:07,702 basehttp 29060 26848 "GET /hw3/posts/2002/11/ HTTP/1.1" 200 26
+INFO 2023-10-25 09:55:07,301 autoreload 29060 28764 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 09:55:08,717 autoreload 23808 23832 Watching for file changes with StatReloader
+INFO 2023-10-25 09:55:17,228 autoreload 23808 23832 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 09:55:18,746 autoreload 27048 25612 Watching for file changes with StatReloader
+INFO 2023-10-25 09:55:34,836 autoreload 27048 25612 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-25 09:55:36,217 autoreload 16536 17572 Watching for file changes with StatReloader
+INFO 2023-10-25 09:55:55,281 autoreload 16536 17572 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-25 09:55:56,481 autoreload 8724 17168 Watching for file changes with StatReloader
+INFO 2023-10-25 09:55:58,543 basehttp 8724 13144 "GET / HTTP/1.1" 200 127
+ERROR 2023-10-25 09:56:17,605 log 8724 13144 Internal Server Error: /hw3/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 28, in my_view
+    return render(request, "myapp3/my_template.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/my_template.html
+ERROR 2023-10-25 09:56:17,617 basehttp 8724 13144 "GET /hw3/ HTTP/1.1" 500 79386
+INFO 2023-10-25 09:56:28,042 basehttp 8724 13144 "GET /hw3 HTTP/1.1" 301 0
+ERROR 2023-10-25 09:56:28,096 log 8724 17912 Internal Server Error: /hw3/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 28, in my_view
+    return render(request, "myapp3/my_template.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/my_template.html
+ERROR 2023-10-25 09:56:28,103 basehttp 8724 17912 "GET /hw3/ HTTP/1.1" 500 79386
+INFO 2023-10-25 09:56:38,539 basehttp 8724 17912 "GET /hw3/hello HTTP/1.1" 301 0
+INFO 2023-10-25 09:56:38,545 basehttp 8724 20740 "GET /hw3/hello/ HTTP/1.1" 200 26
+INFO 2023-10-25 09:58:09,676 autoreload 8724 17168 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 09:58:10,974 autoreload 20928 19800 Watching for file changes with StatReloader
+INFO 2023-10-25 09:58:13,135 basehttp 20928 16340 "GET /hw3/ HTTP/1.1" 200 178
+INFO 2023-10-25 10:17:24,360 autoreload 20928 19800 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\project_1\settings.py changed, reloading.
+INFO 2023-10-25 10:17:25,665 autoreload 25076 14072 Watching for file changes with StatReloader
+INFO 2023-10-25 10:20:33,584 basehttp 25076 4104 "GET /hw3/ HTTP/1.1" 200 215
+INFO 2023-10-25 16:08:11,473 autoreload 29552 28268 Watching for file changes with StatReloader
+INFO 2023-10-25 16:08:54,979 autoreload 9704 28040 Watching for file changes with StatReloader
+INFO 2023-10-25 16:09:09,668 autoreload 29272 29412 Watching for file changes with StatReloader
+INFO 2023-10-25 16:09:23,102 basehttp 29272 7076 "GET / HTTP/1.1" 200 127
+INFO 2023-10-25 16:09:32,883 basehttp 29272 7076 "GET /hw3/week HTTP/1.1" 301 0
+ERROR 2023-10-25 16:09:32,995 log 29272 25380 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:09:33,003 basehttp 29272 25380 "GET /hw3/week/ HTTP/1.1" 500 65100
+WARNING 2023-10-25 16:09:49,383 log 29272 25380 Not Found: /hw3/
+WARNING 2023-10-25 16:09:49,387 basehttp 29272 25380 "GET /hw3/ HTTP/1.1" 404 2596
+ERROR 2023-10-25 16:09:58,147 log 29272 25380 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:09:58,151 basehttp 29272 25380 "GET /hw3/week/ HTTP/1.1" 500 65100
+INFO 2023-10-25 16:10:46,832 autoreload 29272 29412 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:10:48,164 autoreload 3928 15628 Watching for file changes with StatReloader
+INFO 2023-10-25 16:11:10,697 autoreload 3928 15628 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:11:11,994 autoreload 6744 14984 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:11:14,398 log 6744 30300 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:11:14,402 basehttp 6744 30300 "GET /hw3/week/ HTTP/1.1" 500 65580
+WARNING 2023-10-25 16:11:21,092 log 6744 30300 Not Found: /hw3/
+WARNING 2023-10-25 16:11:21,092 basehttp 6744 30300 "GET /hw3/ HTTP/1.1" 404 2596
+ERROR 2023-10-25 16:11:24,824 log 6744 30300 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:11:24,828 basehttp 6744 30300 "GET /hw3/week/ HTTP/1.1" 500 65443
+INFO 2023-10-25 16:12:34,592 autoreload 6744 14984 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:12:35,965 autoreload 29100 25252 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:12:38,024 log 29100 11536 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:12:38,028 basehttp 29100 11536 "GET /hw3/week/ HTTP/1.1" 500 65583
+ERROR 2023-10-25 16:12:38,752 log 29100 11536 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:12:38,756 basehttp 29100 11536 "GET /hw3/week/ HTTP/1.1" 500 65583
+INFO 2023-10-25 16:15:02,923 autoreload 14392 20244 Watching for file changes with StatReloader
+INFO 2023-10-25 16:15:05,434 basehttp 14392 26588 "GET /hw3/week/ HTTP/1.1" 200 313
+INFO 2023-10-25 16:15:16,319 basehttp 14392 26588 "GET /hw3/week/ HTTP/1.1" 200 268
+INFO 2023-10-25 16:15:17,298 basehttp 14392 26588 "GET /hw3/week/ HTTP/1.1" 200 268
+INFO 2023-10-25 16:15:53,949 autoreload 14392 20244 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:15:55,208 autoreload 28184 25452 Watching for file changes with StatReloader
+INFO 2023-10-25 16:15:56,204 basehttp 28184 26536 "GET /hw3/week/ HTTP/1.1" 200 252
+INFO 2023-10-25 16:16:15,989 basehttp 28184 26536 "GET /hw3/week/ HTTP/1.1" 200 260
+INFO 2023-10-25 16:16:36,066 autoreload 28184 25452 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:16:37,309 autoreload 26532 17268 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:16:41,293 log 26532 12616 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 16, in week_orders
+    order = get_object_or_404(Order, pk=i)
+            ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-25 16:16:41,299 basehttp 26532 12616 "GET /hw3/week/ HTTP/1.1" 500 65583
+INFO 2023-10-25 16:17:35,716 autoreload 26532 17268 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:17:36,909 autoreload 17764 25432 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:17:42,053 log 17764 23784 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 17, in week_orders
+    if date.today()-order.date_ordered <= datetime.timedelta(days=7):
+       ^^^^
+NameError: name 'date' is not defined
+ERROR 2023-10-25 16:17:42,057 basehttp 17764 23784 "GET /hw3/week/ HTTP/1.1" 500 65544
+INFO 2023-10-25 16:19:02,782 autoreload 17764 25432 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:19:04,102 autoreload 7008 16416 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:19:06,894 log 7008 25580 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 14, in week_orders
+    date_now = date.today()
+               ^^^^
+NameError: name 'date' is not defined
+ERROR 2023-10-25 16:19:06,898 basehttp 7008 25580 "GET /hw3/week/ HTTP/1.1" 500 65068
+INFO 2023-10-25 16:19:39,011 autoreload 7008 16416 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:19:40,356 autoreload 21716 28188 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:19:43,172 log 21716 30700 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 20, in week_orders
+    for product in order.product:
+                   ^^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'product'
+ERROR 2023-10-25 16:19:43,176 basehttp 21716 30700 "GET /hw3/week/ HTTP/1.1" 500 65705
+INFO 2023-10-25 16:21:12,756 autoreload 21716 28188 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:21:13,959 autoreload 20848 29828 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:21:17,103 log 20848 27892 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 20, in week_orders
+    for product in order.products:
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-10-25 16:21:17,107 basehttp 20848 27892 "GET /hw3/week/ HTTP/1.1" 500 65663
+INFO 2023-10-25 16:36:11,585 autoreload 20848 29828 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:36:12,844 autoreload 17752 18620 Watching for file changes with StatReloader
+ERROR 2023-10-25 16:36:15,176 log 17752 9916 Internal Server Error: /hw3/week/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 21, in week_orders
+    if product.name not in products:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'name'
+ERROR 2023-10-25 16:36:15,184 basehttp 17752 9916 "GET /hw3/week/ HTTP/1.1" 500 65905
+INFO 2023-10-25 16:36:35,877 autoreload 17752 18620 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:36:37,147 autoreload 19004 24368 Watching for file changes with StatReloader
+INFO 2023-10-25 16:36:37,846 basehttp 19004 5072 "GET /hw3/week/ HTTP/1.1" 200 302
+INFO 2023-10-25 16:36:45,702 autoreload 19004 24368 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:36:47,035 autoreload 25920 4804 Watching for file changes with StatReloader
+INFO 2023-10-25 16:36:47,310 basehttp 25920 23684 "GET /hw3/week/ HTTP/1.1" 200 330
+INFO 2023-10-25 16:37:55,798 autoreload 25920 4804 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-25 16:37:57,060 autoreload 29736 13560 Watching for file changes with StatReloader
+INFO 2023-10-25 16:38:35,524 autoreload 29736 13560 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-25 16:38:36,832 autoreload 10724 14596 Watching for file changes with StatReloader
+INFO 2023-10-25 16:45:04,494 autoreload 20244 13700 Watching for file changes with StatReloader
+INFO 2023-10-25 16:45:43,007 autoreload 29852 21904 Watching for file changes with StatReloader
+INFO 2023-10-25 16:45:47,790 basehttp 29852 25680 "GET /hw3/week/ HTTP/1.1" 200 268
+INFO 2023-10-25 16:45:54,688 basehttp 29852 25680 "GET /hw3/month/ HTTP/1.1" 200 357
+INFO 2023-10-25 16:46:02,997 basehttp 29852 25680 "GET /hw3/year/ HTTP/1.1" 200 586
