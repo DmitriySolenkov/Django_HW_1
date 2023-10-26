@@ -25,3 +25,14 @@ class Order(models.Model):
     products = models.ManyToManyField(Product)
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
     date_ordered = models.DateField()
+
+
+class Product_new(models.Model):
+    name = models.CharField(max_length=100)
+    description = models.TextField()
+    price = models.DecimalField(max_digits=8, decimal_places=2)
+    amount = models.IntegerField()
+    addition_date = models.DateTimeField()
+
+    def __str__(self):
+        return f'Название: {self.name}, описание: {self.description}, цена: {self.price}, количество: {self.amount}'

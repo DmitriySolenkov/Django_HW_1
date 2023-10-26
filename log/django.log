@@ -323,3 +323,233 @@ INFO 2023-10-25 16:45:43,007 autoreload 29852 21904 Watching for file changes wi
 INFO 2023-10-25 16:45:47,790 basehttp 29852 25680 "GET /hw3/week/ HTTP/1.1" 200 268
 INFO 2023-10-25 16:45:54,688 basehttp 29852 25680 "GET /hw3/month/ HTTP/1.1" 200 357
 INFO 2023-10-25 16:46:02,997 basehttp 29852 25680 "GET /hw3/year/ HTTP/1.1" 200 586
+INFO 2023-10-26 17:28:45,265 autoreload 10132 22360 Watching for file changes with StatReloader
+INFO 2023-10-26 17:29:28,948 autoreload 10132 22360 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:29:29,433 autoreload 22492 17620 Watching for file changes with StatReloader
+INFO 2023-10-26 17:29:55,596 autoreload 22492 17620 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:29:56,102 autoreload 29992 8044 Watching for file changes with StatReloader
+INFO 2023-10-26 17:30:20,206 autoreload 29992 8044 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-26 17:30:20,701 autoreload 28756 304 Watching for file changes with StatReloader
+INFO 2023-10-26 17:30:34,489 autoreload 28756 304 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-26 17:30:35,005 autoreload 11040 29748 Watching for file changes with StatReloader
+INFO 2023-10-26 17:30:42,605 autoreload 11040 29748 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 17:30:43,122 autoreload 19556 5032 Watching for file changes with StatReloader
+INFO 2023-10-26 17:30:51,749 autoreload 19556 5032 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-26 17:30:52,244 autoreload 26532 28608 Watching for file changes with StatReloader
+INFO 2023-10-26 17:30:59,827 autoreload 26532 28608 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-26 17:31:00,321 autoreload 17548 19132 Watching for file changes with StatReloader
+INFO 2023-10-26 17:31:06,974 basehttp 17548 27804 "GET / HTTP/1.1" 200 127
+WARNING 2023-10-26 17:31:14,905 log 17548 27804 Not Found: /hw3/
+WARNING 2023-10-26 17:31:14,906 basehttp 17548 27804 "GET /hw3/ HTTP/1.1" 404 3131
+INFO 2023-10-26 17:31:29,861 autoreload 17548 19132 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-26 17:31:30,388 autoreload 28708 27332 Watching for file changes with StatReloader
+INFO 2023-10-26 17:31:35,107 basehttp 28708 29816 "GET /hw3/product/add HTTP/1.1" 301 0
+INFO 2023-10-26 17:31:35,175 basehttp 28708 16060 "GET /hw3/product/add/ HTTP/1.1" 200 1075
+INFO 2023-10-26 17:32:01,087 basehttp 28708 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1127
+INFO 2023-10-26 17:32:02,227 basehttp 28708 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1127
+INFO 2023-10-26 17:32:02,670 basehttp 28708 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1127
+INFO 2023-10-26 17:35:59,915 autoreload 28708 27332 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:36:00,440 autoreload 17040 26376 Watching for file changes with StatReloader
+INFO 2023-10-26 17:36:21,465 autoreload 17040 26376 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:36:21,950 autoreload 29652 10492 Watching for file changes with StatReloader
+INFO 2023-10-26 17:40:16,908 basehttp 29652 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1179
+INFO 2023-10-26 17:40:22,367 basehttp 29652 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1186
+INFO 2023-10-26 17:40:31,161 basehttp 29652 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1139
+INFO 2023-10-26 17:40:32,598 basehttp 29652 16060 "POST /hw3/product/add/ HTTP/1.1" 200 1139
+INFO 2023-10-26 17:46:24,669 autoreload 29652 10492 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:46:25,200 autoreload 23028 5672 Watching for file changes with StatReloader
+INFO 2023-10-26 17:47:09,038 autoreload 23028 5672 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:47:09,558 autoreload 27880 8112 Watching for file changes with StatReloader
+INFO 2023-10-26 17:47:48,241 autoreload 27880 8112 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:47:48,731 autoreload 6728 18156 Watching for file changes with StatReloader
+INFO 2023-10-26 17:48:02,320 autoreload 6728 18156 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:48:02,812 autoreload 30316 29992 Watching for file changes with StatReloader
+INFO 2023-10-26 17:49:29,043 autoreload 30316 29992 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:49:29,550 autoreload 30640 19800 Watching for file changes with StatReloader
+INFO 2023-10-26 17:50:58,380 autoreload 3632 16208 Watching for file changes with StatReloader
+INFO 2023-10-26 17:51:04,073 basehttp 3632 11696 "POST /hw3/product/add/ HTTP/1.1" 200 1486
+INFO 2023-10-26 17:51:35,159 autoreload 3632 16208 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:51:35,674 autoreload 19176 28680 Watching for file changes with StatReloader
+INFO 2023-10-26 17:51:39,403 basehttp 19176 29036 "POST /hw3/product/add/ HTTP/1.1" 200 1413
+INFO 2023-10-26 17:58:55,017 autoreload 19176 28680 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 17:58:55,516 autoreload 5188 28704 Watching for file changes with StatReloader
+INFO 2023-10-26 17:59:01,177 basehttp 5188 12384 "POST /hw3/product/add/ HTTP/1.1" 200 1434
+INFO 2023-10-26 18:05:56,805 autoreload 29852 19808 Watching for file changes with StatReloader
+INFO 2023-10-26 18:07:29,194 autoreload 29852 19808 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 18:07:29,699 autoreload 13712 29500 Watching for file changes with StatReloader
+INFO 2023-10-26 18:07:38,399 autoreload 13712 29500 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 18:07:38,919 autoreload 21444 30492 Watching for file changes with StatReloader
+INFO 2023-10-26 18:07:46,563 autoreload 21444 30492 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\models.py changed, reloading.
+INFO 2023-10-26 18:07:47,079 autoreload 28024 29412 Watching for file changes with StatReloader
+INFO 2023-10-26 18:09:37,104 autoreload 28024 29412 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:09:37,591 autoreload 28588 14612 Watching for file changes with StatReloader
+INFO 2023-10-26 18:10:08,998 autoreload 28588 14612 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:10:09,494 autoreload 308 28468 Watching for file changes with StatReloader
+INFO 2023-10-26 18:10:47,088 autoreload 308 28468 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:10:47,599 autoreload 26564 14016 Watching for file changes with StatReloader
+INFO 2023-10-26 18:10:51,125 autoreload 26564 14016 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:10:51,633 autoreload 19500 27172 Watching for file changes with StatReloader
+INFO 2023-10-26 18:11:09,618 autoreload 19500 27172 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:11:10,127 autoreload 26200 2212 Watching for file changes with StatReloader
+INFO 2023-10-26 18:11:19,833 autoreload 26200 2212 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:11:20,351 autoreload 21008 5136 Watching for file changes with StatReloader
+INFO 2023-10-26 18:16:52,761 autoreload 21008 5136 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 18:16:53,286 autoreload 21276 25416 Watching for file changes with StatReloader
+INFO 2023-10-26 18:23:03,960 autoreload 27392 17620 Watching for file changes with StatReloader
+INFO 2023-10-26 18:23:17,549 autoreload 27392 17620 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\urls.py changed, reloading.
+INFO 2023-10-26 18:23:18,052 autoreload 27692 15572 Watching for file changes with StatReloader
+ERROR 2023-10-26 18:23:50,821 log 27692 29804 Internal Server Error: /hw3/product/add/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 63, in product_form
+    addition_date = form.cleaned_data['date']
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'date'
+ERROR 2023-10-26 18:23:50,825 basehttp 27692 29804 "POST /hw3/product/add/ HTTP/1.1" 500 68437
+INFO 2023-10-26 18:24:25,892 autoreload 27692 15572 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:24:26,418 autoreload 29720 14380 Watching for file changes with StatReloader
+ERROR 2023-10-26 18:24:29,604 log 29720 13208 Internal Server Error: /hw3/product/add/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 63, in product_form
+    addition_date = form.cleaned_data['additional_date']
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'additional_date'
+ERROR 2023-10-26 18:24:29,606 basehttp 29720 13208 "POST /hw3/product/add/ HTTP/1.1" 500 68525
+INFO 2023-10-26 18:24:45,629 autoreload 29720 14380 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:24:46,127 autoreload 26732 2348 Watching for file changes with StatReloader
+INFO 2023-10-26 18:24:48,684 basehttp 26732 4104 "POST /hw3/product/add/ HTTP/1.1" 200 1574
+INFO 2023-10-26 18:24:50,186 basehttp 26732 4104 "POST /hw3/product/add/ HTTP/1.1" 200 1574
+INFO 2023-10-26 18:34:29,739 autoreload 26732 2348 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:34:30,283 autoreload 25984 14940 Watching for file changes with StatReloader
+INFO 2023-10-26 18:34:42,083 autoreload 25984 14940 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 18:34:42,607 autoreload 18488 15444 Watching for file changes with StatReloader
+INFO 2023-10-26 18:36:41,655 autoreload 28344 19228 Watching for file changes with StatReloader
+INFO 2023-10-26 18:36:51,308 autoreload 28344 19228 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:36:51,805 autoreload 22248 3912 Watching for file changes with StatReloader
+INFO 2023-10-26 18:37:00,748 basehttp 22248 30112 "POST /hw3/product/add/ HTTP/1.1" 200 1799
+INFO 2023-10-26 18:38:09,370 basehttp 22248 30112 "POST /hw3/product/add/ HTTP/1.1" 200 1805
+INFO 2023-10-26 18:40:52,648 basehttp 22248 30112 "POST /hw3/product/add/ HTTP/1.1" 200 1835
+INFO 2023-10-26 18:43:09,196 autoreload 22248 3912 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\project_1\settings.py changed, reloading.
+INFO 2023-10-26 18:43:09,751 autoreload 16440 20772 Watching for file changes with StatReloader
+INFO 2023-10-26 18:44:21,505 autoreload 16440 20772 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:44:25,582 autoreload 26076 18064 Watching for file changes with StatReloader
+INFO 2023-10-26 18:44:32,698 basehttp 26076 23468 "POST /hw3/product/add/ HTTP/1.1" 200 1835
+ERROR 2023-10-26 18:44:44,413 log 26076 23468 Internal Server Error: /hw3/product/add/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 58, in product_form
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 443, in _clean_fields
+    value = field.clean(value, bf.initial)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 681, in clean
+    return super().clean(data)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 198, in clean
+    value = self.to_python(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 708, in to_python
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+ERROR 2023-10-26 18:44:44,417 basehttp 26076 23468 "POST /hw3/product/add/ HTTP/1.1" 500 96606
+INFO 2023-10-26 18:46:05,952 autoreload 29848 5160 Watching for file changes with StatReloader
+INFO 2023-10-26 18:46:28,064 autoreload 29848 5160 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:46:28,563 autoreload 15612 9128 Watching for file changes with StatReloader
+INFO 2023-10-26 18:46:31,062 autoreload 15612 9128 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 18:46:31,575 autoreload 16568 22792 Watching for file changes with StatReloader
+INFO 2023-10-26 18:46:34,915 basehttp 16568 27248 "POST /hw3/product/add/ HTTP/1.1" 200 1610
+INFO 2023-10-26 18:46:36,573 basehttp 16568 27248 "POST /hw3/product/add/ HTTP/1.1" 200 1610
+INFO 2023-10-26 18:46:39,235 basehttp 16568 27248 "POST /hw3/product/add/ HTTP/1.1" 200 1610
+INFO 2023-10-26 18:47:52,967 autoreload 16568 22792 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\forms.py changed, reloading.
+INFO 2023-10-26 18:47:53,488 autoreload 25276 14940 Watching for file changes with StatReloader
+INFO 2023-10-26 18:48:25,935 autoreload 25276 14940 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:48:26,452 autoreload 28548 25772 Watching for file changes with StatReloader
+INFO 2023-10-26 18:49:49,263 basehttp 28548 29180 "POST /hw3/product/add/ HTTP/1.1" 200 1706
+INFO 2023-10-26 18:49:58,821 basehttp 28548 29180 "POST /hw3/product/add/ HTTP/1.1" 200 1706
+INFO 2023-10-26 18:52:57,269 basehttp 28548 29180 "POST /hw3/product/add/ HTTP/1.1" 200 1696
+INFO 2023-10-26 18:53:38,523 autoreload 28548 25772 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:53:39,019 autoreload 10088 196 Watching for file changes with StatReloader
+INFO 2023-10-26 18:54:16,383 basehttp 10088 29392 "POST /hw3/product/add/ HTTP/1.1" 200 1696
+INFO 2023-10-26 18:55:21,017 autoreload 10088 196 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:55:21,523 autoreload 27444 30224 Watching for file changes with StatReloader
+INFO 2023-10-26 18:55:26,879 autoreload 27444 30224 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:55:27,388 autoreload 24412 11824 Watching for file changes with StatReloader
+ERROR 2023-10-26 18:55:32,682 log 24412 28732 Internal Server Error: /hw3/product/add/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 57, in product_form
+    form = ProductForm(request.POST, request.Files)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Files'
+ERROR 2023-10-26 18:55:32,684 basehttp 24412 28732 "POST /hw3/product/add/ HTTP/1.1" 500 68084
+INFO 2023-10-26 18:56:30,105 autoreload 24412 11824 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:56:30,618 autoreload 24760 8888 Watching for file changes with StatReloader
+ERROR 2023-10-26 18:56:36,516 log 24760 11580 Internal Server Error: /hw3/product/add/
+Traceback (most recent call last):
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py", line 58, in product_form
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\forms.py", line 443, in _clean_fields
+    value = field.clean(value, bf.initial)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 681, in clean
+    return super().clean(data)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 198, in clean
+    value = self.to_python(value)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soldi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\fields.py", line 708, in to_python
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+ERROR 2023-10-26 18:56:36,520 basehttp 24760 11580 "POST /hw3/product/add/ HTTP/1.1" 500 96603
+INFO 2023-10-26 18:57:42,958 autoreload 9400 14296 Watching for file changes with StatReloader
+INFO 2023-10-26 18:57:47,616 basehttp 9400 14392 "POST /hw3/product/add/ HTTP/1.1" 200 1637
+INFO 2023-10-26 18:57:52,187 basehttp 9400 14392 "POST /hw3/product/add/ HTTP/1.1" 200 1637
+INFO 2023-10-26 18:58:26,374 autoreload 16468 26264 Watching for file changes with StatReloader
+INFO 2023-10-26 18:58:36,107 autoreload 16468 26264 C:\Users\Soldi\OneDrive\Documents\Homework\Django\HW_1\project_1\myapp3\views.py changed, reloading.
+INFO 2023-10-26 18:58:36,767 autoreload 23964 20836 Watching for file changes with StatReloader
+INFO 2023-10-26 18:58:44,770 basehttp 23964 18692 "POST /hw3/product/add/ HTTP/1.1" 200 1637
+INFO 2023-10-26 19:00:40,534 autoreload 23868 10628 Watching for file changes with StatReloader
+INFO 2023-10-26 19:00:45,226 basehttp 23868 14612 "POST /hw3/product/add/ HTTP/1.1" 200 1637
