@@ -745,3 +745,13 @@ Traceback (most recent call last):
                     ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ValueError: incomplete format
 ERROR 2023-10-28 16:47:35,899 basehttp 29552 18392 "GET /admin/myapp2/product/ HTTP/1.1" 500 103062
+WARNING 2023-10-31 17:17:21,847 log 19432 17968 Not Found: /favicon.ico
+WARNING 2023-10-31 17:17:21,850 basehttp 19432 17968 "GET /favicon.ico HTTP/1.1" 404 12421
+WARNING 2023-10-31 17:23:51,334 log 11324 15020 Not Found: /users/
+WARNING 2023-10-31 17:23:51,334 basehttp 11324 15020 "GET /users/ HTTP/1.1" 404 12401
+WARNING 2023-10-31 17:26:08,716 log 11324 28704 Not Found: /hw3/
+WARNING 2023-10-31 17:26:08,720 basehttp 11324 28704 "GET /hw3/ HTTP/1.1" 404 13003
+WARNING 2023-10-31 17:26:17,465 log 11324 28704 Not Found: /hw3/
+WARNING 2023-10-31 17:26:17,465 basehttp 11324 28704 "GET /hw3/ HTTP/1.1" 404 13003
+WARNING 2023-10-31 17:26:22,445 log 11324 15020 Not Found: /hw3/month/
+WARNING 2023-10-31 17:26:22,445 basehttp 11324 15020 "GET /hw3/month/ HTTP/1.1" 404 12709
